@@ -100,6 +100,7 @@ otterimgs = [
 	'http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/56/cj/p056cj5w.jpg'
 ]
 
+module.exports = (robot) ->
     robot.hear /otter fact/i, (msg) ->
         msg.send msg.random otterfacts
 
