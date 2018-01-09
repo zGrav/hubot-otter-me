@@ -102,8 +102,8 @@ otterimgs = [
 
 module.exports = (robot) ->
 
-  robot.hear /otter fact/i, (msg) ->
-    msg.send msg.random otterfacts
+    robot.hear /otter fact/i, (msg) ->
+        msg.send msg.random otterfacts
 
-  robot.hear /otter me/i, (msg) ->
-    msg.send msg.random otterimgs
+    robot.hear /otter me/i, (msg) ->
+        msg.send msg.random otterimgs
